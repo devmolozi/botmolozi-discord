@@ -6,7 +6,7 @@ def home():
     return "i'm alive"
 
 def run():
-    app.run(host='https://botmolozidc.netlify.app/', port=8080)
+    app.run(host='0.0.0.0', port=8080)
 
 def keep_alive():
     t = Thread(target=run)
